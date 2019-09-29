@@ -4,8 +4,18 @@
     <meta content="charset=utf-8">
 	<link rel="shortcut icon" href="icon.png" type="image/png">
 	<link rel="stylesheet" href="styles.css" type="text/css">
-    <title>Mu Immortal</title>
+    <title>Testing</title>
   </head>
   <body>
+    <script>
+      function f(event) {
+        var dot = document.createElement("div");
+        dot.className = "dot";
+        dot.style.left = (event.pageX - 4) +"px";
+        dot.style.top = (event.pageY - 4) + "px";
+        document.body.appendChild(dot);
+      }
+      addEventListener("click", f(event));
+    </script>
   </body>
 </html>
