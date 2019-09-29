@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta content="charset=utf-8">
-	<link rel="shortcut icon" href="icon.png" type="image/png">
-	<link rel="stylesheet" href="styles.css" type="text/css">
-    <title>Testing</title>
+    <link rel="shortcut icon" href="icon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Spirit Fox</title>
   </head>
   <body>
-    <script>
-      addEventListener("click", f1);
-        function f1(event) {
-        var dot = document.createElement("div");
-        dot.className = "dot";
-        dot.style.left = (event.pageX - 4).toString() +"px";
-        dot.style.top = (event.pageY - 4).toString() + "px";
-        document.body.appendChild(dot);
-      }
-    </script>
+    <canvas width="800" height="700"></canvas>
+    <audio id="aud" loop>
+      <source src="music/MuBC.mp3" type="audio/mpeg">
+      Тег audio не поддерживается вашим браузером.
+    </audio>
+    <script src="script.js"></script>
   </body>
 </html>
