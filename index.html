@@ -8,13 +8,14 @@
   </head>
   <body>
     <script>
-      addEventListener("click", function f(event) {
+      addEventListener("click", f1);
+        function f1(event) {
         var dot = document.createElement("div");
         dot.className = "dot";
         dot.style.left = (event.pageX - 4).toString() +"px";
         dot.style.top = (event.pageY - 4).toString() + "px";
         document.body.appendChild(dot);
-      });
+      }
     </script>
   </body>
 </html>
