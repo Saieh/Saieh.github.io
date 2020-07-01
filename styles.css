@@ -2,7 +2,7 @@ body {
   background-color : black;
 }
 canvas {
-  cursor: url(cursorr.cur), pointer;
+  cursor: url(cursor.cur), pointer;
   border-radius : 16px;
   background-color : gray;
 }
