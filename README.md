@@ -1,1 +1,1 @@
-Just tetris.
+Mini game.
