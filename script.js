@@ -206,7 +206,7 @@ function two(){
       }
 
       if (controls == 1 && Math.random() <= 0.1) {
-        if (tokeni.length == 0) {tokeni.push([4, nast_coord + 800, Math.floor(Math.random()*250)]);}
+        if (tokeni.length == 0) {tokeni.push([1, nast_coord + 800, Math.floor(Math.random()*250)]);}
       }
 
       if (doma.length > 0) {
@@ -219,7 +219,7 @@ function two(){
       }
 
       if (tokeni.length > 0) {
-        ccx.drawImage(t4, 10 - nast_coord + tokeni[0][1], tokeni[0][2]);
+        ccx.drawImage(t1, 10 - nast_coord + tokeni[0][1], tokeni[0][2]);
       }
 
       if (tokeni.length > 0) {
