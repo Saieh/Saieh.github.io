@@ -97,7 +97,7 @@ image0.onload = function(){
 
 }
 
-var azaza = setInterval(two, 250);
+var azaza = setInterval(two, 125);
 
 image0.src = "images/menu0.bmp";
 
@@ -177,7 +177,7 @@ function two(){
     frame = frame + 1; if (frame == 5) {frame = 1;}
     if (jump == 1){jump_x += 1; nast_y = nast_y - 50 + jump_x * jump_x; 
                    if (nast_y >= 180){nast_y = 180; jump = 0; jump_x = 0;}}
-    nast_time += 1;
+    nast_time += 0.456621;
 
     if (nast_luna == 1) {ccx.drawImage(space, 0, 0)} else {ccx.fillStyle = "rgb(255, 255, 255)"; ccx.fillRect(0, 0, 800, 500);}
 
